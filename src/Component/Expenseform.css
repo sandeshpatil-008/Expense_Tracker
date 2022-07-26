@@ -1,0 +1,97 @@
+.list {
+    background-color: rgb(186, 126, 243);
+    width: 85%;
+    border-radius: 10px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.inputTitle {
+
+    background-color: rgb(241, 239, 243);
+    width: 60%;
+    height: 3vh;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    margin-left: 15px;
+    padding: 10px;
+
+}
+
+.addNewBtn input,
+.addExpBtn {
+    background-color: rgb(221, 193, 248);
+    width: 115px;
+    height: 5vh;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    margin: 30px;
+    cursor: pointer;
+
+}
+
+.addExpBtn:hover {
+    background-color: rgb(91, 25, 153);
+    color: white;
+    transition: 0.4s all ease;
+}
+
+.list label {
+    margin-left: 15px;
+    font-size: 1.2rem;
+    line-height: 35px;
+}
+
+.addExp {
+    display: grid;
+    align-items: center;
+    justify-content: end;
+    margin-right: 10px;
+    grid-column-end: 3;
+}
+
+.dblock {
+    display: block;
+}
+
+.dNone {
+    display: none;
+}
+
+.newBtn {
+    background-color: rgb(186, 126, 243);
+    width: 85%;
+    border-radius: 10px;
+    margin: 10px auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.newBtn input:hover {
+    background-color: rgb(91, 25, 153);
+    color: white;
+    transition: 0.4s all ease;
+}
+
+@media(max-width:400px) {
+    .list {
+        display: block;
+    }
+
+    .list label {
+        margin-left: 40px;
+    }
+
+    .inputTitle {
+        margin-left: 40px;
+
+    }
+}

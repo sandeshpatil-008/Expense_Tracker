@@ -1,0 +1,33 @@
+.filterBtn {
+    background-color: rgb(221, 193, 248);
+    width: 100px;
+    height: 5vh;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.filterAll {
+    display: grid;
+    grid-column-end: 7;
+    justify-content: end;
+    margin-right: 35px;
+
+}
+
+@media(max-width:500px) {
+    .filterBtn {
+        width: 70px;
+        height: 4vh;
+    }
+}
+
+@media(max-width:400px) {
+    .filterBtn {
+        width: 60px;
+        height: 4vh;
+    }
+}

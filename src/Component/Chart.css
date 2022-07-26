@@ -1,0 +1,27 @@
+.dFlex {
+    display: flex;
+    width: 95%;
+    background-color: rgb(244, 177, 230);
+    border-radius: 10px;
+    margin: 20px auto;
+    align-items: center;
+    justify-content:space-around;
+    flex-flow: wrap;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    padding: 10px 0px;
+}
+
+@media(max-width:400px) {
+    .dFlex {
+        padding: 10px 0px;
+        justify-content: center;
+
+    }
+}
+
+@media(max-width:500px) {
+    .dFlex {
+        padding: 10px 0px;
+    }
+}
